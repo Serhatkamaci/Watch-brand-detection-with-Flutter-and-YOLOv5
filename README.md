@@ -1,16 +1,5 @@
-# yapay_zeka_final
+Bu çalışmada, "Audemars Piguet", "Breguet", "Breitling", "Maurice Lacroix", "Omega", "Patek Philippe", "Rado", "Rolex", "Tissot" ve "Vacheron Constantin" markalarından toplamda 2000 adet saat fotoğrafı kullanıldı. Görüntü kalitelerinin iyileştirilmesi amacıyla BSRGAN yöntemi kullanıldı. Daha sonra YOLOv5 nesne tespiti algoritması kullanılarak, img-size değeri 640, batch-size değeri 8 ve epoch değeri 150 olan belirli hiperparametrelerle eğitim yapıldı. Eğitim sonucunda elde edilen model bir sunucuya yüklendi. Flutter arayüzü kullanılarak, uygulamaya yüklenen bir görüntünün hangi markaya ait olduğu tespit edildi.
 
-A new Flutter project.
+--------------------------------------------------
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+In this study, a dataset consisting of a total of 2000 images of watches from brands "Audemars Piguet", "Breguet", "Breitling", "Maurice Lacroix", "Omega", "Patek Philippe", "Rado", "Rolex", "Tissot", and "Vacheron Constantin" was utilized. Due to varying image qualities, improvements were made using the BSRGAN method. Subsequently, training was conducted using the YOLOv5 object detection algorithm with specific hyperparameters set to img-size 640, batch-size 8, and 150 epochs. The resulting model was deployed to a server. Using a Flutter interface, the application enables uploading an image containing a watch from one of these 10 brands to determine its brand affiliation.
